@@ -6,13 +6,17 @@ import Cursos from './components/cursos/Cursos';
 import Login from './components/login/Login';
 import reportWebVitals from './reportWebVitals';
 import Account from './components/create-account/CreateAccount';
+import CursoCard from './components/cursos/CursoCard';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Account/>
+    {/* <CursoCard/> */}
+    <Cursos/>
+    {/* <Account/> */}
     {/* <Login/> */}
-    {/* <Index/> */}
+     {/* <Index/> */} 
   </React.StrictMode>
 );
 
