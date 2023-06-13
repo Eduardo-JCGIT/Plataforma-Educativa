@@ -14,9 +14,10 @@ const Filters = () => {
 
   return (
     <div className="container-filter">
-      <h1>Filtro de Cursos</h1>
+
       <div className="filter-curso">
-        <select value={categoria} onChange={handleCategoriaChange}>
+      <h2>Filtros</h2> 
+      <select value={categoria} onChange={handleCategoriaChange}>
           <option value="">Seleccionar categoría</option>
           <option value="desarrollo-web">Desarrollo Web</option>
           <option value="arquitectura-redes">Arquitectura de Redes</option>

@@ -7,16 +7,18 @@ import Login from './components/login/Login';
 import reportWebVitals from './reportWebVitals';
 import Account from './components/create-account/CreateAccount';
 import CursoCard from './components/cursos/CursoCard';
+import CourseDetail from './components/course-details/Course-details';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <CursoCard/> */}
-    <Cursos/>
+    {/* <Cursos/> */}
     {/* <Account/> */}
     {/* <Login/> */}
-     {/* <Index/> */} 
+    {/* <Index/> */}
+    <CourseDetail/>
   </React.StrictMode>
 );
 
