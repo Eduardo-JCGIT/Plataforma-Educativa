@@ -12,6 +12,7 @@ import user from "../../img/icon/user.png";
 import trend from "../../img/icon/trend.png";
 import star from "../../img/icon/star.png";
 import BusiCont from "./Busi-cont";
+import ContCourse from "./Cont-course";
 
 
 const CourseDetail = () =>{
@@ -97,6 +98,19 @@ const CourseDetail = () =>{
             </div>
         <br />
       
+      {/* Acordeon de cursos */}
+        <br />
+        <br />
+        <h2>Contenido del curso</h2>
+        <div className="cont-cour-text-mod">
+            <p><img src={check} alt={check} className="icon-check"/>6 Módulos</p>
+            <p><img src={check} alt={check} className="icon-check"/>25 Clases</p>
+            <p><img src={check} alt={check} className="icon-check"/>17 Horas</p>
+        </div>
+        <div>
+        <ContCourse/>
+        </div>
+
         {/* Contenido de cursos */}
         <h2>Herramientas de trabajo</h2>
         <br />
@@ -118,9 +132,8 @@ const CourseDetail = () =>{
             <button className="btn"><a href="https://docs.google.com/document" target="_blank" rel="noopener noreferrer">Vamos</a></button>
             </div>
             </div>
-
-
             <div>
+
 
             </div>
             <BusiCont/>

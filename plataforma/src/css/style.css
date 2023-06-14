@@ -829,41 +829,53 @@ input{
 
 /*Acordeon de curso*/
 
-.color-red-arco{
-  width: 15px;
-  height: 15px;
-  background-color: var(--col-secondary);
-  border-radius: 20px;
+.marg-cour-pad-flx{
+  margin: 50px 0px;
 }
 
-.accordion {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.section {
-  border: 1px solid #ccc;
+.displ-course-back-count{
+  width: 90%;
+  border: solid var(--col-con-grey) 2px;
   border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.section-header {
-  background-color: #f1f1f1;
-  color: #333;
-  width: 100%;
-  padding: 20px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.section-content {
   padding: 10px;
+  margin: auto;
 }
 
-.section.active .section-header {
-  background-color: #ddd;
+.bar-course-back-cont{
+  margin: 5px auto;
+  padding: 10px 10px;
+  width: 90%;
+  background-color: var(--col-con-grey);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.left-section-bar-course{
+  display: flex;
+  align-items: center;
+}
 
+.left-section-bar-course img{
+  width: 25px;
+}
+
+.left-section-bar-course p{
+  margin: 0px 10px;
+}
+
+.right-section-bar-course{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-section-bar-course p{
+  margin: 0px 10px;
+}
+
+.sep-det-cour{
+  margin: 10px 0px;
+}
 
 
