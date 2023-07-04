@@ -9,25 +9,33 @@ const ContCourse = () =>{
             <div className="bar-course-back-cont">
                 <div className="left-section-bar-course">
                 <img src={Cirlce} alt={Cirlce} />
-                <p>Introducción</p>
+                <p>Módulo 1: Web Developer Fundamentals</p>
                 </div>
                 <div className="right-section-bar-course">
-                <p>3 módulos</p>
+                <p>5 módulos</p>
                 <p>15 minutos</p>
                 </div>
             </div>
             <div className="displ-course-back-count">
                  <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>¿Qué es Laravel?</p>
+                <p>Qué aprenderás sobre HTML y CSS</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Conociendo Laravel</p>
+                <p>¿Qué es el frontend?</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>PHP,Composer y base de datos</p>
+                <p>¿Qué es el backend?</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>¿Qué es Full Stack?</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Páginas Estáticas vs. Dinámicas</p>
                 </div>
             </div>
 
@@ -35,7 +43,7 @@ const ContCourse = () =>{
             <div className="bar-course-back-cont">
                 <div className="left-section-bar-course">
                 <img src={Cirlce} alt={Cirlce} />
-                <p>Componentes esenciales de Laravel</p>
+                <p>Módulo 2: HTML</p>
                 </div>
                 <div className="right-section-bar-course">
                 <p>5 módulos</p>
@@ -45,25 +53,247 @@ const ContCourse = () =>{
             <div className="displ-course-back-count">
                  <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Rutas en Laravel, según sus preferencias</p>
+                <p>HTML: anatomía de una página web</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Archivos de rutas y cómo funcionan las rutas de Laravel</p>
+                <p>Index y su estructura básica: head</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Creando múltiples tipos de rutas y acciones en Laravel</p>
+                <p>Index y su estructura básica: body</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Usando controladores en Laravel para mejorar la lógica del negocio</p>
+                <p>Reto: crea tu lista de compras del supermercado</p>
                 </div>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Mostrando vistas y resultados de operaciones en Laravel</p>
+                <p>Anatomía de una etiqueta de HTML</p>
                 </div>
             </div>
+        
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 3: Etiquetas multimedia</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>5 módulos</p>
+                <p>20 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Tipos de imágenes</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Optimización de imágenes</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Etiqueta img</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Etiqueta figure</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Etiqueta video</p>
+                </div>
+            </div>
+
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 4: Formularios</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>5 módulos</p>
+                <p>20 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Etiqueta form e input</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Calendar</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Autocomplete y require</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Select</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Input type submit vs. Button tag</p>
+                </div>
+            </div>
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 5: CSS</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>5 módulos</p>
+                <p>20 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>¿Qué es CSS?</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>¿Cómo utilizamos CSS?: por etiqueta, selector, class y por ID</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Pseudo clases y pseudo elementos</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Anatomía de una regla de CSS</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Modelo de caja Input type submit vs. Button tag</p>
+                </div>
+            </div>
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 6: Responsive Design</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>5 módulos</p>
+                <p>20 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p> Responsive design: media queries</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Estrategias de responsive: mostly fluid</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p> Implementando mostly fluid</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p> Layout shifter CSS</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Column drop</p>
+                </div>
+            </div>
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 7: Accesibilidad</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>3 módulos</p>
+                <p>30 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Semántica</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Textos</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Labels, alt y title</p>
+                </div>
+            </div>
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo 8: Accesibilidad</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>2 módulos</p>
+                <p>10 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p> Próximos pasos como Web Developer</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p> Bonus: tabla de etiquetas HTML</p>
+                </div>
+            </div>
+
+            <div className="bar-course-back-cont">
+                <div className="left-section-bar-course">
+                <img src={Cirlce} alt={Cirlce} />
+                <p>Módulo: Examen final</p>
+                </div>
+                <div className="right-section-bar-course">
+                <p>7 módulos</p>
+                <p>35 minutos</p>
+                </div>
+            </div>
+            <div className="displ-course-back-count">
+                 <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Estructura básica de un documento HTML</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Etiquetas HTML</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Tablas en HTML</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Formularios HTML</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Selectores CSS</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Propiedades CSS básicas</p>
+                </div>
+                <div className="left-section-bar-course sep-det-cour">
+                <img src={Play} alt={Play} />
+                <p>Modelo de caja CSS</p>
+                </div>
+            </div>
+            
         </div>
     )
 }

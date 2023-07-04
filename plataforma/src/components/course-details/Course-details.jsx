@@ -1,5 +1,5 @@
 import Nav from "../welcome/Nav";
-import IntLaravel from "../../img/teachers/Curso-detalles/Int-Laravel2.jpg";
+import IntHTML from "../../img/teachers/Curso-detalles/Int-HTML.jpg";
 import Footer from "../welcome/Footer";
 import check from "../../img/icon/check.png"
 import clock from "../../img/icon/clock.png";
@@ -21,26 +21,24 @@ const CourseDetail = () =>{
         <div>
         <Nav/>
             <div className="img-course-det-cont">
-            <img className="img-course-det-cont-font" src={IntLaravel} alt="" />
+            <img className="img-course-det-cont-font" src={IntHTML} alt="" />
             <div className="texto-superpuesto">
-                <h1>Introducción a Laravel</h1>
-                <p>Laravel es un framework PHP (Preprocesador de Hipertexto) de código abierto que los 
-                    desarrolladores utilizan para construir sitios web. Un framework PHP proporciona a 
-                    los desarrolladores una biblioteca de módulos preprogramados que pueden utilizar 
-                    para crear aplicaciones web rápidamente</p>
+                <h1 className="title-course-tx-col">Introducción a HTML</h1>
+                <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para 
+                    crear y estructurar el contenido de las páginas web. Es el lenguaje fundamental en 
+                    la construcción de sitios web y se utiliza para describir la estructura y el 
+                    contenido de una página.</p>
                     <br />
-                    <h3>¿Que verás en este curso?</h3>
+                    <h2 className="title-course-tx-col">¿Que verás en este curso?</h2>
                     <br />
                 <ul>
-                    <li>- ¿Que es Laravel?</li>
-                    <li>- Instalación de Laravel</li>
-                    <li>- Conoce tu espacio de trabajo</li>
-                    <li>- Frontend</li>
-                    <li>- PHP & Blade</li>
-                    <li>- Livewire</li>
-                    <li>- Using Vue / React</li>
-                    <li>- Inertia</li>
-                    <li>- Starter Kits</li>
+                    <li>- Web Developer Fundamentals</li>
+                    <li>- HTML</li>
+                    <li>- Etiquetas multimedia</li>
+                    <li>- Formularios</li>
+                    <li>- CSS</li>
+                    <li>- Responsive Desing</li>
+                    <li>- Accesibilidad</li>
                 </ul>
             </div>
             </div>
@@ -62,18 +60,22 @@ const CourseDetail = () =>{
             <br/>
             <div className="cour-cont-flx">
                 <div className="cour-colu-flx">
-                <p><img src={check} alt={check} className="icon-check"/>Laravel es el framework estrella de la plataforma PHP</p>
+                <p><img src={check} alt={check} className="icon-check"/>Dominar HTML</p>
                 <br />
-                <p><img src={check} alt={check} className="icon-check"/>Veremos cómo funciona su potente motor de plantillas Blade</p>
+                <p><img src={check} alt={check} className="icon-check"/>Crear páginas web desde cero</p>
                 <br />
-                <p><img src={check} alt={check} className="icon-check"/>También aprenderás a crear APIs Rest con Laravel 9</p>
+                <p><img src={check} alt={check} className="icon-check"/>Aprender a usar todas las etiquetas más importantes en profundidad</p>
+                <br />
+                <p><img src={check} alt={check} className="icon-check"/>HTML moderno en profundidad</p>
                 </div>
                 <div className="cour-colu-flx">
-                <p><img src={check} alt={check} className="icon-check"/> el framework Laravel 9 por dentro</p>
+                <p><img src={check} alt={check} className="icon-check"/>Aumentar las posibilidades laborales como desarrollador</p>
                 <br />
-                <p><img src={check} alt={check} className="icon-check"/>Conocerás el framework Laravel 9 por dentro</p>
+                <p><img src={check} alt={check} className="icon-check"/>Dominar HTML5</p>
                 <br />
-                <p><img src={check} alt={check} className="icon-check"/>Abre las puertas a múltiples empleos y proyectos gracias a la popularidad de Laravel</p>
+                <p><img src={check} alt={check} className="icon-check"/>Primeros pasos en el desarrollo web</p>
+                <br />
+                <p><img src={check} alt={check} className="icon-check"/>¡Y mucho más!</p>
                 </div>
             </div>
             <br/>
@@ -88,7 +90,7 @@ const CourseDetail = () =>{
                 <br/>
                 <p><img src={download} alt={download} className="icon-check"/>4 recursos descargables</p>
                 <br />
-                <p><img src={code} alt={code} className="icon-check"/>6 artículos</p>
+                <p><img src={code} alt={code} className="icon-check"/>9 Modulos</p>
                 </div>
                 <div className="cour-colu-flx">
                 <p><img src={certificado} alt={certificado} className="icon-check"/> Certificado de finalización</p>
@@ -103,7 +105,7 @@ const CourseDetail = () =>{
         <br />
         <h2>Contenido del curso</h2>
         <div className="cont-cour-text-mod">
-            <p><img src={check} alt={check} className="icon-check"/>6 Módulos</p>
+            <p><img src={check} alt={check} className="icon-check"/>9 Módulos</p>
             <p><img src={check} alt={check} className="icon-check"/>25 Clases</p>
             <p><img src={check} alt={check} className="icon-check"/>17 Horas</p>
         </div>
