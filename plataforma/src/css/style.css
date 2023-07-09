@@ -47,7 +47,7 @@ align-items: center;
 }
 
 .logo img {
-  height: 70px;
+  height: 40px;
 }
 
 .ul-nav {
@@ -578,8 +578,9 @@ input{
   margin-bottom: 20px;
 }
 
-/*Contenedor de cursos*/
+/*Contenedor de cursos Borrador*/
 
+/*
 .container-gen{
   margin: 0 8%;
 }
@@ -587,6 +588,12 @@ input{
 .title-name-curso{
   margin: 20px;
 }
+*/
+
+/*Contenedor del curso, new*/
+
+/*Slider Curso, filtros new*/ 
+
 
 /*Filtro de cursos */
 
@@ -884,6 +891,52 @@ input{
   margin: 10px 0px;
 }
 
+/*Diseño de video de curso*/
+
+.cont-vid-nx{
+  display: flex;
+  margin-top: 30px;
+}
+
+.cont-vid-nx video{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.container-general{
+  margin: 0 550px 0 40px;
+}
+
+
+/*Comentarios del curso*/
+
+.text-area-course-nx{
+  width: 90%;
+  height: 80px;
+  padding: 5px;
+  border-radius: 15px;
+  border: var(--col-secondary) 4px solid;
+}
+
+.btn-course-commet{
+  padding: 13px 20px;
+  background-color: #646FD4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.col-cont-vid-nx1{
+  flex: 70%;
+  margin: 0 30px;
+}
+
+.col-cont-vid-nx2{
+  flex: 30%;
+  margin: 0 30px;
+}
 
 
 /*Diseño de administrador*/

@@ -1,6 +1,5 @@
 //Pendiente de ruta
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
 import iconNE from '../../img/icon/N.png'
 import DW from '../../img/icon/1DW.png';
 import RD from '../../img/icon/2RD.png';
@@ -10,6 +9,7 @@ import BD from '../../img/icon/BD5.png';
 import CE from '../../img/icon/CE6.png';
 import DM from '../../img/icon/DM7.png';
 import SV from '../../img/icon/SV8.png';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -23,7 +23,9 @@ const Nav = () => {
       <nav className={`menu ${isMenuOpen ? 'active' : ''}`}>
         <div className="left-section">
           <div className="logo">
-            <img src={iconNE} alt="Logo de la empresa" />
+            <Link to="/">
+            <img src={iconNE} alt={iconNE} />
+            </Link>
           </div>
 
 
@@ -46,7 +48,9 @@ const Nav = () => {
         </li>
           </ul>
             <li>
-              <a href="1">Cursos</a>
+            <Link to="/cursos/Cursos">
+            Cursos
+            </Link>
 
               </li>
             <li><a href="3">Profesores</a></li>

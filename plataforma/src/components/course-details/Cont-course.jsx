@@ -1,5 +1,6 @@
 import Cirlce from "../../img/icon/circleArrow.png"
 import Play from "../../img/icon/play.png"
+import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
 const ContCourse = () =>{
 
@@ -17,10 +18,12 @@ const ContCourse = () =>{
                 </div>
             </div>
             <div className="displ-course-back-count">
+                <Link to="/PlayCourse">
                  <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
-                <p>Qué aprenderás sobre HTML y CSS</p>
+                <p>Bienvenido</p>
                 </div>
+                </Link>
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>¿Qué es el frontend?</p>
