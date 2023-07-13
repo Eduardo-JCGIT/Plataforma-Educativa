@@ -876,6 +876,8 @@ input{
 
 .left-section-bar-course p{
   margin: 0px 10px;
+  color: #000;
+  font-size: 1rem;
 }
 
 .right-section-bar-course{
@@ -893,22 +895,72 @@ input{
 
 /*Diseño de video de curso*/
 
-.cont-vid-nx{
+.scroll-hidden-cont-nx{
+  overflow: hidden;
+}
+
+
+.container-vid-cont{
   display: flex;
-  margin-top: 30px;
+  height: 87vh;
 }
 
 .cont-vid-nx video{
-  width: 100%;
   border-radius: 15px;
 }
 
-.container-general{
-  margin: 0 550px 0 40px;
+.cont-vid-nx{
+  flex: 2;
+  padding: 10px;
+  overflow: auto;
+  overflow-x: hidden; 
 }
 
+.cont-vid-nx::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de scroll */
+}
+
+/* Estilos para el pulgar (thumb) del scroll */
+.cont-vid-nx::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color de fondo del pulgar */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+/* Estilos adicionales opcionales para el hover del pulgar del scroll */
+.cont-vid-nx::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color de fondo del pulgar al pasar el cursor por encima */
+}
+
+.cont-com-nx{
+  flex: 1;
+  padding: 10px;
+  overflow: auto;
+}
+
+.cont-com-nx::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de scroll */
+}
+
+/* Estilos para el pulgar (thumb) del scroll */
+.cont-com-nx::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color de fondo del pulgar */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+/* Estilos adicionales opcionales para el hover del pulgar del scroll */
+.cont-com-nx::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color de fondo del pulgar al pasar el cursor por encima */
+}
 
 /*Comentarios del curso*/
+
+.com-scroll-container{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
 
 .text-area-course-nx{
   width: 90%;
@@ -938,6 +990,32 @@ input{
   margin: 0 30px;
 }
 
+.com-user-ds{
+  background-color: var(--col-con-grey);
+  margin: 3% 0%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.sep-com-vid-ds{
+  margin: 5% 0;
+}
+
+.com-user-profile img{
+  width: 9%;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.com-user-profile{
+  display: flex;
+  align-items: center;
+}
+
+.com-user-status p{
+  font-size: 0.7rem;
+  opacity: 70%;
+}
 
 /*Diseño de administrador*/
 

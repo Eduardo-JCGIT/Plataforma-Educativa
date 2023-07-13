@@ -18,28 +18,36 @@ const ContCourse = () =>{
                 </div>
             </div>
             <div className="displ-course-back-count">
-                <Link to="/PlayCourse">
-                 <div className="left-section-bar-course sep-det-cour">
+                <Link to="/video1">
+                <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>Bienvenido</p>
                 </div>
                 </Link>
+                <Link to="/video2">
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>¿Qué es el frontend?</p>
                 </div>
+                </Link>
+                <Link to="/video3">
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>¿Qué es el backend?</p>
                 </div>
+                </Link>
+                <Link to="/video4">
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>¿Qué es Full Stack?</p>
                 </div>
+                </Link>
+                <Link to="/video5">
                 <div className="left-section-bar-course sep-det-cour">
                 <img src={Play} alt={Play} />
                 <p>Páginas Estáticas vs. Dinámicas</p>
                 </div>
+                </Link>
             </div>
 
 

@@ -13,7 +13,12 @@ function App() {
           <Route exact path="/" component={Index} />
           <Route path="/cursos" component={Cursos} />
           <Route path="/CourseDetail" component={CourseDetail}></Route>
-          <Route path="/PlayCourse" component={PlayCourse}></Route>
+
+        <Route path="/video1" component={() => <PlayCourse video="video1" />} />
+        <Route path="/video2" component={() => <PlayCourse video="video2" />} />
+        <Route path="/video3" component={() => <PlayCourse video="video3" />} />
+        <Route path="/video4" component={() => <PlayCourse video="video4" />} />
+        <Route path="/video5" component={() => <PlayCourse video="video5" />} />
         </Switch>
       </div>
     </Router>
