@@ -9,8 +9,8 @@ function CommentVid() {
     { id: 2, author: 'Eduardo Jiménez', content: 'No me gusto el curso, muy chafa, regresenme mi dinero (soy pobre)', img: img2},
     { id: 3, author: 'Katia Chan', content: 'Hola me gusta el pan de dulce y el hentai', img: img3},
     { id: 4, author: 'Mari Ignot', content: 'Me gustan los sapitos y siempre ando enojada', img: img4},
-    { id: 3, author: 'Katia Chan', content: 'Hola me gusta el pan de dulce y el hentai', img: img3},
-    { id: 4, author: 'Mari Ignot', content: 'Me gustan los sapitos y siempre ando enojada', img: img4}
+    { id: 5, author: 'Katia Chan', content: 'Hola me gusta el pan de dulce y el hentai', img: img3},
+    { id: 6, author: 'Mari Ignot', content: 'Me gustan los sapitos y siempre ando enojada', img: img4}
     // Puedes agregar más comentarios aquí
   ]);
 

@@ -64,7 +64,9 @@ const Nav = () => {
         </div>
         <div className="right-section">
           <div className="user-actions">
+            <Link to="/profile/Profile">
             <button type="button">Iniciar sesión</button>
+            </Link>
             <button type="button">Registrarse</button>
           </div>
         </div>

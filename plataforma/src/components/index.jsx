@@ -6,7 +6,7 @@ import Footer from "./welcome/Footer";
 function Index() {
 
     return(
-        <div>
+        <div className="not-croll-index-nx">
             <Nav/>
             <Header/>
             <Main/>

@@ -4,6 +4,7 @@ import Index from './components';
 import Cursos from './components/cursos/Cursos';
 import CourseDetail from './components/course-details/CourseDetails';
 import PlayCourse from './components/course-vid-play/PlayCourse';
+import Profile from './components/profile/Profile';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/video3" component={() => <PlayCourse video="video3" />} />
         <Route path="/video4" component={() => <PlayCourse video="video4" />} />
         <Route path="/video5" component={() => <PlayCourse video="video5" />} />
+
+        <Route path="/profile" component={Profile}/>
         </Switch>
       </div>
     </Router>

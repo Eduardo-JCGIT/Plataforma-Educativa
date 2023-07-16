@@ -34,6 +34,10 @@ header {
   padding: 10px;
 }
 
+.not-croll-index-nx{
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -400,6 +404,7 @@ a{
   border-radius: 10px;
   cursor: pointer;
   margin-left: 5px;
+  transition-duration: 0.5s;
 }
 
 .btn a{
@@ -935,7 +940,7 @@ input{
   flex: 1;
   padding: 10px;
   overflow: auto;
-}
+}  
 
 .cont-com-nx::-webkit-scrollbar {
   width: 10px; /* Ancho de la barra de scroll */
@@ -1088,3 +1093,94 @@ input{
   margin: 0 14px 0 12px;
 }
 
+
+/*Diseño del perfil de usuario*/
+
+.cont-user-profile{
+  display: flex;
+}
+
+.back-img-user{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.icon-profile-img{
+ position: absolute;
+ top: 50%;
+ left: 5%;
+ transform: translate(10%,-35%);
+ display: flex;
+}
+
+.icon-profile-img img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.icon-profile-img h2{
+  color: var(--col-con-grey);
+  margin-left: 25px;
+  transform: translateY(20%);
+}
+
+.progress-inf-user{
+ display: flex;
+ margin: 15% 0 0 5%;
+}
+
+.progress-inf-user p{
+  margin-right: 30px;
+}
+
+.btn-profile-user-ch{
+  text-align: right;
+  transform: translate(-5%, -170%);
+}
+
+.btn-profile-user-ch button{
+  margin-left: 10px;
+}
+
+/*Contenedor del perfil*/
+
+.cont-inf-user-nx{
+  margin: 5%;
+}
+
+.cont-cour-pen-user-nx{
+  display: flex;
+  background-color: var(--col-con-grey);
+  border-radius: 15px;
+  width: 50%;  
+  align-items: center;
+  justify-content: center;
+}
+
+.columna {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.columna-1 {
+  flex: 1 50px;
+}
+
+.columna-2 {
+  flex: 2 200px;
+}
+
+.columna-3 {
+  flex: 3 50px;
+}
+.sep-cour-pen-user{
+  margin-top: 4%;
+}
+
+.cont-cour-pen-user-nx img{
+  width: 100%;
+}
