@@ -40,7 +40,6 @@ const TeacherView = () => {
       {TeacherObj.map((card) => (
         <div className="img-internal" key={card.id}>
           <img src={card.image} alt={card.image}/>
-          <button className='btn-teach-feat'>Ver cursos</button>
         </div>
       ))}
     </div>

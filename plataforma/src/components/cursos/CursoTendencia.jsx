@@ -9,9 +9,9 @@ const CursoTendencia = () => {
   const cards = [
     {
       image: Curso1,
-      title: 'Introducción en React JS',
+      title: 'Introducción a HTML',
       rating: 4,
-      teacher: 'Rafael Armando Pech',
+      teacher: 'Eduardo Jiménez',
     },
     {
       image: Curso2,

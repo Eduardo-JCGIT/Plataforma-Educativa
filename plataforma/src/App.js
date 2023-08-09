@@ -5,6 +5,7 @@ import Cursos from './components/cursos/Cursos';
 import CourseDetail from './components/course-details/CourseDetails';
 import PlayCourse from './components/course-vid-play/PlayCourse';
 import Profile from './components/profile/Profile';
+import NoAlive from './components/404/NoAlive';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path="/video5" component={() => <PlayCourse video="video5" />} />
 
         <Route path="/profile" component={Profile}/>
+
+        <Route path="/Error" component={NoAlive}/>
         </Switch>
       </div>
     </Router>

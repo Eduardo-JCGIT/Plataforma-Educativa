@@ -20,7 +20,7 @@ function Main() {
     <div>
 
         <div className="sec-col-bk">
-        <div className="flex">
+        <div className="flex flex-respo-main-sec">
         <div className="sec1">
         <h3>Aprender nuevas tecnologías</h3>
         <br/>
@@ -33,7 +33,7 @@ function Main() {
 
         </div>
 
-        <div className="flex">
+        <div className="flex flex-respo-main-sec">
         <div className="sec2">
         <img src={Tec4} alt="Tec2"/>
         </div>

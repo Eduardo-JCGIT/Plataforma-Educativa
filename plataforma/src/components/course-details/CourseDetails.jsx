@@ -136,9 +136,8 @@ const CourseDetail = () =>{
             </div>
             <div>
 
-
             </div>
-            <BusiCont/>
+    
             </div>
 
             <Footer/>

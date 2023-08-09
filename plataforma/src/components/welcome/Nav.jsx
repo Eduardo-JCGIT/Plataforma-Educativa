@@ -28,15 +28,13 @@ const Nav = () => {
             </Link>
           </div>
 
-
-          
           <ul className='ul-nav'>
           <ul>
         <li className="dropdown">
-          <a href="2">Explorar</a>
+          <a href="#">Explorar</a>
           <ul className="dropdown-menu">
-            <h2 className='title-drop-nav'>Categorías</h2>
-            <li><img src={DW} alt="" /><a href="2">Desarrollo web</a></li>
+            <h2 className='title-drop-nav dis-rig-sec-left'>Categorías</h2>
+            <li><img src={DW} alt="" /> <Link to="/Error"><a href="2">Desarrollo web</a></Link></li>
             <li><img src={RD} alt="" /><a href="2">Arquitectura de Redes</a></li>
             <li><img src={DB} alt="" /><a href="2">Administración de base de datos</a></li>
             <li><img src={SI} alt="" /><a href="2">Protección de sistemas</a></li>
@@ -48,19 +46,14 @@ const Nav = () => {
         </li>
           </ul>
             <li>
-            <Link to="/cursos/Cursos">
+            <Link to="/cursos/Cursos" className="dis-rig-sec-left">
             Cursos
             </Link>
 
               </li>
-            <li><a href="3">Profesores</a></li>
+            <li><a href="#" className="dis-rig-sec-left">Profesores</a></li>
           </ul>
 
-
-          <div className="search">
-            <input type="text" placeholder="Busca un nuevo curso..." />
-            <button type="button">Buscar</button>
-          </div>
         </div>
         <div className="right-section">
           <div className="user-actions">
@@ -70,7 +63,14 @@ const Nav = () => {
             <button type="button">Registrarse</button>
           </div>
         </div>
+        <div className='logo-position-toggle'>
         <div className="toggle-menu" onClick={toggleMenu}></div>
+            <div className="logo">
+            <Link to="/">
+            <img src={iconNE} alt={iconNE} />
+            </Link>
+          </div>
+        </div>
       </nav>
     </header>
   );
